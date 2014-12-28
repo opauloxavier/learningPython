@@ -6,12 +6,12 @@ if numero is None:
 print "Diga a unidade de saida desejada: J- jardas F- pes"
 saida = raw_input(" > ")
 
-def converte():
+def converte(saida,numero):
 	if saida.lower() == "j":
-		print "%d metros equivalem a %r jardas" %(int(numero),float(numero)*0.9144)
+		print "%d metros equithvalem a %r jardas" %(int(numero),float(numero)*0.9144)
 
 	elif saida.lower() == "f" :
 		print "%d metros equivalem a %r pes" %(int(numero),float(numero)*0.3048)
 
 
-converte()
+converte(saida,numero)
