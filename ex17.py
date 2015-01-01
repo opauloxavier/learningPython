@@ -11,7 +11,7 @@ def rewind(f):
 def print_a_line(line_count,f):
 	print line_count,f.readline()
 
-current_file=open(input_file)
+current_file = open(input_file)
 
 print_all(current_file)
 
@@ -19,4 +19,4 @@ rewind(current_file)
 
 for x in xrange(0,3):
 	print_a_line(x,current_file)
-
+	
